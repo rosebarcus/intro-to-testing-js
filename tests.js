@@ -24,8 +24,20 @@ describe('sayHello', function() {
     it('sayHello("Jane") returns "Hello, Jane!', function () {
         expect(sayHello()).toBe("Hello, Jane!");
     });
-    it('sayHello("Alex) returns "Hello, Alex!', function () {
-        expect(sayHello("Alex")).toBe("Hello, Alex!");
+    it('sayHello("Alex") returns "Hello, Alex!"', function () {
+        expect(sayHello()).toBe("Hello, Alex!");
     });
+    it('sayHello("Pat") returns "Hello, Pat!"', function () {
+        expect(sayHello("Pat")).toBe("Hello, Pat!")
+    });
+
 });
+
+
+
+
+
+
+
+
 

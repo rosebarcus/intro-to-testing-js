@@ -11,4 +11,3 @@ function sayHello (input) {
             return "Hello, Jane!"
     }
 }
-
