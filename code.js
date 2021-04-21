@@ -11,3 +11,7 @@ function sayHello(input) {
     return "Hello, World!";
 }
 
+function isFive(input) {
+    if (typeof input != "boolean")
+        return true;
+}
