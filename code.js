@@ -17,6 +17,24 @@ function isFive(input) {
 }
 
 function isEven(input) {
-    if(input === 2 % 0 && typeof input === "number")
+        if (typeof input != "string") {
+            return parseInt(input) % 2 === 0;
+        } else {
+            return parseInt(input) % 2 === 0;
+        }
+}
+
+/*function isVowel (input) {
+    if(typeof input === 'number' || typeof input === 'boolean')
+        return true
+}*/
+
+function isVowel(vowel){
+    if (typeof vowel === "number"){
+        return false;
+    }else if (vowel === "a" || vowel === "A" || vowel === 'boolean') {
         return true;
+    } else {
+        return false;
+    }
 }
