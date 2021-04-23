@@ -15,3 +15,8 @@ function isFive(input) {
     if (typeof input != "boolean")
         return true;
 }
+
+function isEven(input) {
+    if(input === 2 % 0 && typeof input === "number")
+        return true;
+}
